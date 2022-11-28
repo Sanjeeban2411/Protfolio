@@ -20,63 +20,77 @@ export const Experience = [
     title: "SRM Institute of Technology",
     location: "Chennai, India",
     description:
-      "Btech in CSE with specializtion in Information Technology",
+      "Btech in CSE with specializtion in AI/ML",
   },
   {
     id: 2,
     date: "2018 - 2020",
     iconsSrc: <IoCodeWorking />,
-    title: "Khar Education Society Jr College",
-    location: "Mumbai, Maharashtra",
+    title: "Gurukul Grammar Senior Sec. School",
+    location: "Guwahati, Assam",
     description:
-      "Science , HSC Board",
+      "Science , CBSE",
   },
   {
     id: 3,
     date: "2006-2018",
     iconsSrc: <IoCodeWorking />,
-    title: "Saraswati Vidyalaya",
-    location: "Thane, Maharashtra",
+    title: "Gurukul Grammar Senior Sec. School",
+    location: "Guwahati, Assam",
     description:
-      "SSC board",
+      "CBSE",
   },
 ];
 
 export const Projects = [
   {
     id: 1,
-    name: "IP-Locator",
+    name: "Text-Utils",
     imageSrc: img1,
-    techs: "React Js, React-Leaflet, Javascript",
-    github: "https://github.com/ZERstar/IP-Locator",
+    techs: "React Js, Javascript",
+    github: "https://github.com/Sanjeeban2411/text_utils",
   },
   {
     id: 2,
-    name: "Serenity App",
+    name: "News-Monkey",
     imageSrc: img2,
-    techs: "React Js, Sanity, Tailwind CSS",
+    techs: "React Js, Javascript, Bootstrap",
     github: "https://github.com/ZERstar/envision",
   },
   {
     id: 3,
-    name: "Memory Token Game",
+    name: "Weather Updater",
     imageSrc: img3,
-    techs: "React Js, Chakra UI, Google API",
-    github: "https://github.com/ZERstar/Memory-Token-Game",
+    techs: "React Js, Javascript, TailwindCSS",
+    github: "https://github.com/Sanjeeban2411/WeatherUpdater",
   },
   {
     id: 4,
-    name: "AgroTip",
+    name: "TriLingo",
     imageSrc: img4,
-    techs: "React Js,  Material UI",
-    github: "https://github.com/ZERstar/AgroTip",
+    techs: "React Js,  Tailwind",
+    github: "https://github.com/Sanjeeban2411/TrilingoMern",
   },
   {
     id: 5,
-    name: "Portfolio",
+    name: "AstroTalk",
     imageSrc: img5,
-    techs: "React Js,  Material UI",
-    github: "https://github.com/ZERstar/Portfolio",
+    techs: "Nodejs, Expressjs, MongoDB, Postman",
+    github: "https://github.com/Sanjeeban2411/Astrologer_backend",
+  },
+  {
+    id: 6,
+    name: "Aaruush '22",
+    imageSrc: img5,
+    techs: "NextJS, TailwindCSS, Nodejs, Expressjs, DynamoDB, AWS Amplify",
+    github: "https://github.com/team-envision/Aaruush.org-22",
+  },
+  {
+    id: 7,
+    name: "PayMate",
+    imageSrc: img5,
+    techs: "Reactjs, TailwindCSS, Nodejs, Expressjs, MongoDB, Postman",
+    github: "https://github.com/Sanjeeban2411/Astrologer_backend",
   },
 ];
 
@@ -85,7 +99,7 @@ export const SocialLinks = [
     id: 1,
     iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
     name: "GitHub",
-    link: "https://github.com/ZERstar",
+    link: "https://github.com/Sanjeeban2411",
   },
 
   {
@@ -94,6 +108,6 @@ export const SocialLinks = [
       <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
     ),
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/tejas-dumbre-44aa42183/",
+    link: "https://www.linkedin.com/in/sanjeeban-parasar-448aba1b8",
   },
 ];

@@ -17,7 +17,7 @@ function App() {
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
         <nav className="w-full px-6 z-50  fixed inset-x-0 top-2 flex justify-center items-center ">
           <div className=" w-full md:w-880 bg-navBar p-4 rounded-2xl flex items-center">
-            <p className="text-lg text-slate-200 font-medium">Tejas Dumbre</p>
+            <p className="text-lg text-slate-200 font-medium">Sanjeeban Parasar</p>
 
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
@@ -45,7 +45,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1Sw7U-AtIExyVZn4P-VRIIukqtCetXFGJ/view?usp=share_link"
+                href="https://drive.google.com/file/d/19TeYUjM1DCb6jm8T9z2d1s_vdA6RkP3J/view?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Download
@@ -96,7 +96,7 @@ function App() {
                   Contact
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1Sw7U-AtIExyVZn4P-VRIIukqtCetXFGJ/view?usp=share_link"
+                  href="https://drive.google.com/file/d/19TeYUjM1DCb6jm8T9z2d1s_vdA6RkP3J/view?usp=sharing"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
@@ -132,7 +132,7 @@ function App() {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
               <p className="text-lg text-textBase text-center">
-                I am Tejas studying in SRM IST pursuing my Btech in CSE-IT. I am a blockchain and mobile application. I like to create projects in new techstacks. Currently I am learning Blockchain and studying it's applications. I have interest in preparing advance NFT marketplaces and also curious about Decentralized Finance.
+                I am Sanjeeban studying in SRM IST, KTR pursuing my Btech in CSE s/w AI/ML. I am into web development and blockchain. I like to create projects in new techstacks. Currently I am learning Blockchain and studying it's applications. I diving deep into the web 3 revolution and exploring more in the decentralised world.
               </p>
 
               <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
@@ -177,6 +177,7 @@ function App() {
             className="flex flex-wrap items-center justify-evenly my-24 gap-4"
             id="projects"
           >
+            
             {Projects &&
               Projects.map((n, i) => (
                 <motion.div
@@ -187,11 +188,11 @@ function App() {
                     {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
                   </p>
 
-                  <img
+                  {/* <img
                     src={n.imageSrc}
                     className="w-full h-full object-cover rounded-md my-4"
                     alt=""
-                  />
+                  /> */}
 
                   <div className="flex flex-1 items-center justify-between">
                     <p className="text-lg text-gray-300">
